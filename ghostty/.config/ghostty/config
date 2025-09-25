@@ -1,2 +1,19 @@
 theme = catppuccin-mocha
 font-feature = -liga
+
+# splits control
+keybind = ctrl+shift+|=new_split:right
+keybind = ctrl+shift+-=new_split:down
+
+keybind = performable:ctrl+shift+k=goto_split:up
+keybind = performable:ctrl+shift+j=goto_split:down
+keybind = performable:ctrl+shift+h=goto_split:left
+keybind = performable:ctrl+shift+l=goto_split:right
+
+keybind = ctrl+shift+equal=equalize_splits
+
+keybind = ctrl+shift+up=resize_split:up,20
+keybind = ctrl+shift+down=resize_split:down,20
+keybind = ctrl+shift+left=resize_split:left,20
+keybind = ctrl+shift+right=resize_split:right,20
+
