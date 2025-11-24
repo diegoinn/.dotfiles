@@ -12,7 +12,7 @@ keybind = performable:ctrl+shift+j=goto_split:down
 keybind = performable:ctrl+shift+h=goto_split:left
 keybind = performable:ctrl+shift+l=goto_split:right
 
-keybind = performable:ctrl+shift+enter=toogle_split_zoom
+keybind = performable:ctrl+shift+enter=toggle_split_zoom
 
 keybind = performable:ctrl+shift+equal=equalize_splits
 
